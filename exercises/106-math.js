@@ -8,16 +8,16 @@
 // Create a function "add99" that takes one argument and adds the number 99 to it.
 // You can assume that the argument passed in will be a number value.
 function add99(number){
-let numSum = number + 99
-return numSum
+    let numSum = number + 99
+    return numSum
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a function "sum" that takes 2 arguments and sums them together.
 // Assume that both arguments are numbers.
 function sum(num1, num2){
-let sum = num1 + num2
-return sum
+    let sum = num1 + num2
+    return sum
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -41,8 +41,8 @@ function multiply(num1, num2){
 // Create a function "divide" that takes 2 number arguments and returns their
 // product.
 function divide(num1, num2){
-let product = num1 / num2
-return product
+    let product = num1 / num2
+    return product
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

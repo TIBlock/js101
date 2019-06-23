@@ -10,7 +10,7 @@
 
 function threeFruits () {
   const fruits = ['Apple', 'Banana', 'Cherry']
-return fruits
+  return fruits
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,7 +19,7 @@ return fruits
 
 function multipleTypes () {
   const diverseArray = ['Skateboard', null, 8.75, 'Eiffel Tower', 44, 7, true, null]
-return diverseArray
+  return diverseArray
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,7 +39,7 @@ function indexAccess () {
   console.assert(people[4] === 'Julia')
 
   // return the third item from the "people" array here
-return people[2]
+  return people[2]
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -48,7 +48,7 @@ return people[2]
 
 function useLength () {
   const arr = ['a', 'b', 'c']
-return arr.length
+  return arr.length
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -57,8 +57,8 @@ return arr.length
 
 function usePush () {
   let arr = ['a', 'b', 'c']
-arr.push("d")
-return arr
+  arr.push("d")
+  return arr
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -67,8 +67,8 @@ return arr
 
 function usePop () {
   let arr = ['a', 'b', 'c']
-arr.pop()
-return arr
+  arr.pop()
+  return arr
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,7 +86,7 @@ function useIndexOf () {
   console.assert(arr.indexOf('Z') === -1) // no "Z" in this array
 
   // return the index of the first instance of "T" here
-return arr.indexOf("T")
+  return arr.indexOf("T")
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -102,7 +102,7 @@ function useJoin () {
   console.assert(arr.join('') === 'abcdef') // pass an empty string to have no separator
 
   // create and return the string 'a-b-c-d-e-f' here
-return arr.join('-')
+  return arr.join('-')
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
